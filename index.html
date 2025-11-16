@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Website HMT</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+  <nav>
+    <div class="logocontainer"><a href="index.html"><img src="logo.png" alt="HMT Logo" class="logo-img"></a></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="images/slide1.jpg" id="heroVideo">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <button class="play-pause-btn" id="playPauseBtn" aria-label="Play or pause video" title="Play/Pause">
+      <span class="play-icon">▶</span>
+      <span class="pause-icon" style="display:none;">⏸</span>
+    </button>
+
+    <div class="hero-overlay" aria-hidden="false">
+      <div class="hero-inner">
+        <h1>Welcome to Website HMT</h1>
+        <p>We build fast, accessible, and beautiful websites. Start building your presence today.</p>
+        <a class="btn" href="#">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+    <main>
+    <section class="content animate-on-scroll">
+      <h2>Our Work</h2>
+      <p>Placeholder content — replace this with your real content.</p>
+    </section>
+    
+    <!-- New two-column section: text on the left, image on the right -->
+    <section class="content-with-image" id="paste-content">
+      <div class="two-col">
+        <div class="text-col animate-on-scroll">
+          <h2>Our Values</h2>
+          <p>
+            We offer a wide range of tools—from affordable options to premium, high-quality products. Choose from thousands of trusted brands across categories such as woodworking tools, hardware tools, hand tools, power tools, construction machinery, gardening tools, air tools, hydraulic tools, and pneumatic tools.
+          </p>
+          <p>
+            Tip: keep the first sentence concise to act as a lead-in for readers.
+          </p>
+        </div>
+        <div class="our_values animate-on-scroll">
+          <img src="our values.png" alt="Our Values" class="our-values" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>About</h4>
+        <p>Short description about the site or company.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>email@example.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Website HMT. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="navbar-scroll.js"></script>
+  <script src="animate-scroll.js"></script>
+  <script src="player.js"></script>
+</body>
+</html>
