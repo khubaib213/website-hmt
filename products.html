@@ -5,74 +5,70 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Products - Website HMT</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="products.css">
  </head>
 <body>
   <nav>
     <div class="logocontainer"><a href="index.html"><img src="logo.png" alt="HMT Logo" class="logo-img"></a></div>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
       <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
   <section class="hero">
-    <video class="hero-video" autoplay muted loop playsinline poster="images/slide1.jpg" id="heroVideo">
-      <source src="video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-    <button class="play-pause-btn" id="playPauseBtn" aria-label="Play or pause video" title="Play/Pause">
-      <span class="play-icon">▶</span>
-      <span class="pause-icon" style="display:none;">⏸</span>
-    </button>
+    <img src="products.png" alt="A collection of power tools on display" class="hero-image">
 
     <div class="hero-overlay" aria-hidden="false">
       <div class="hero-inner">
-        <p>Our Products</p>
+        <h1>PRODUCTS</h1>
         <a class="btn" href="#">Shop Now</a>
       </div>
     </div>
   </section>
 
-    <main>
-    
-    
-    <!-- Products section -->
-    <section class="content-with-image" id="paste-content">
-      <div class="two-col">
-        <div class="text-col animate-on-scroll">
-          <h2>Wide Range of Tools</h2>
-          <p>
-            Explore our extensive collection of tools, including woodworking tools, hardware tools, hand tools, power tools, construction machinery, gardening tools, air tools, hydraulic tools, and pneumatic tools.
-          </p>
-          <p>
-            From affordable options to premium, high-quality products from trusted brands.
-          </p>
+  <main>
+    <!-- Product 1 -->
+    <section class="product-tile">
+      <div class="two-col animate-on-scroll">
+        <div class="text-col">
+          <h2>Premium Power Drills</h2>
+          <p>Experience unmatched performance with our range of premium power drills. Engineered for precision and durability, these drills are perfect for both professional contractors and DIY enthusiasts. Features include variable speed control, long-lasting battery life, and an ergonomic grip.</p>
         </div>
-        <div class="our_values animate-on-scroll">
-          <img src="our values.png" alt="Our Products" class="our-values" />
+        <div class="our_values">
+          <img src="oasis plate 2.jpeg" alt="Premium Power Drills" class="our-values" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Product 2 (Reversed Layout) -->
+    <section class="product-tile">
+      <div class="two-col reverse animate-on-scroll">
+        <div class="text-col">
+          <h2>Professional Hand Tool Set</h2>
+          <p>This comprehensive 150-piece hand tool set provides everything you need for any mechanical or household project. Forged from high-strength steel and finished in chrome for rust resistance, these tools are built to last a lifetime. Comes in a durable carrying case for easy organization.</p>
+        </div>
+        <div class="our_values">
+          <img src="https://placehold.co/600x400/111111/FFF?text=Hand+Tools" alt="Professional Hand Tool Set" class="our-values" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Product 3 -->
+    <section class="product-tile">
+      <div class="two-col animate-on-scroll">
+        <div class="text-col">
+          <h2>Heavy-Duty Construction Machinery</h2>
+          <p>Tackle the toughest jobs with our reliable heavy-duty construction machinery. From compact excavators to large-scale loaders, our equipment delivers powerful performance and is designed for safety and efficiency on the job site. Available for sale or rent.</p>
+        </div>
+        <div class="our_values">
+          <img src="https://placehold.co/600x400/d96c06/FFF?text=Machinery" alt="Heavy-Duty Construction Machinery" class="our-values" />
         </div>
       </div>
     </section>
   </main>
-
-  <!-- Product Categories section -->
-  <section id="product-categories" class="content animate-on-scroll">
-    <h2>Product Categories</h2>
-    <ul>
-      <li>Woodworking Tools</li>
-      <li>Hardware Tools</li>
-      <li>Hand Tools</li>
-      <li>Power Tools</li>
-      <li>Construction Machinery</li>
-      <li>Gardening Tools</li>
-      <li>Air Tools</li>
-      <li>Hydraulic Tools</li>
-      <li>Pneumatic Tools</li>
-    </ul>
-  </section>
 
   <footer class="site-footer">
     <div class="footer-grid">
